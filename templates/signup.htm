@@ -1,0 +1,39 @@
+{% extends "layout.htm" %}
+{% block content %}
+    <div class="updatediv">
+        <form method="POST" action="">
+            {{form.hidden_tag()}}
+            <fieldset class="accountstyle">
+                <legend>
+                    Sign Up
+                </legend>
+            <div class="accountinput">
+                {{form.username.label (class="labels")}}
+                {{form.username (class="accountbox")}}
+            </div>
+                <br>
+            <div class="accountinput">
+                {{form.email.label (class="labels")}}
+                {{form.email (class="accountbox")}}
+            </div>
+                <br>
+            <div class="accountinput">
+                {{form.password.label (class="labels")}}
+                {{form.password (class="accountbox")}}
+            </div>
+                <br>
+            <div class="accountinput">
+                {{form.confirm_password.label (class="labels")}}
+                {{form.confirm_password (class="accountbox")}} 
+            </div>
+            </fieldset>
+            {{form.submit (class="button1 btnn")}}
+        </form>
+    </div>
+    <div class="bottom bottomsu">
+        <small>
+            Do you have account ?
+        </small>
+        <a href="{{url_for('login')}}">login</a>
+    </div>
+{%endblock%}

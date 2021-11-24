@@ -1,0 +1,27 @@
+{% extends "layout.htm" %}
+{% block content %}
+<div class="heading">
+        <h1>{{current_user.username}}</h1>
+         <a href="{{url_for('home')}}"><button class="button1">Home</button></a>
+</div>
+<div class="updatediv">
+        <form method="POST" action="">
+            {{form.hidden_tag()}}
+            <fieldset class="accountstyle">
+                <legend>
+                    Account Info
+                </legend>
+                <div class="accountinput">
+                    {{form.username.label (class="labels")}}
+                    {{form.username (class="accountbox")}}
+                </div> 
+                <br>
+                <div class="accountinput">
+                    {{form.email.label (class="labels")}}
+                    {{form.email (class="accountbox")}}
+                </div>
+            </fieldset>
+            {{form.submit (class="button1 update")}}
+        </form>
+</div>
+{% endblock %}

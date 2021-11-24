@@ -1,0 +1,28 @@
+{% extends "layout.htm" %}
+{% block content %}
+    <div class="updatediv">
+        <form method="POST" action="">
+            {{form.hidden_tag()}}
+            <fieldset class="accountstyle">
+                <legend>
+                    Login
+                </legend>
+                <div class="accountinput">
+                    {{form.email.label (class="labels")}}
+                    {{form.email (class="accountbox")}}
+                </div>
+                    <br>
+                <div class="accountinput">
+                    {{form.password.label (class="labels")}}
+                    {{form.password (class="accountbox")}}
+                </div>
+            </fieldset>
+            {{form.submit (class="accountbox")}}
+            <br>
+            {{form.remember}}
+            {{form.remember.label}}
+            <br/>
+            forget password ? <a href="{{url_for('reset_request')}}">generate new</a>
+        </form>
+    </div>
+{%endblock%}

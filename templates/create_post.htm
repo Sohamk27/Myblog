@@ -1,0 +1,23 @@
+{% extends "layout.htm" %}
+{% block content %}
+<div class="updatediv">
+    <form method="POST" action="">
+        {{form.hidden_tag()}}
+        <fieldset class="accountstyle">
+            <legend>
+                {{legend}}
+            </legend>
+            <div class="accountinput">
+                {{form.title.label (class="labels")}}
+                {{form.title (class="accountbox")}}
+            </div>
+                <br/>
+            <div class="accountinput">
+                {{form.content.label (class="labels")}}
+                {{form.content (class="accountbox")}}
+            </div>
+        </fieldset>
+                {{form.submit (class="button1")}}
+    </form>
+</div>
+{% endblock %}

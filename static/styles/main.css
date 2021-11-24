@@ -1,0 +1,156 @@
+body{
+    
+    background-color: cadetblue;
+}
+h1 {
+    color:rgb(4, 39, 68);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p{
+    color: rgb(5, 0, 3);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 40%;
+}
+button{
+    background-color: #121312; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.nav {
+    text-align: center;
+}
+.nav1 {
+    text-align: center;
+    position: fixed;
+}
+.heading{
+    margin-top: 1%;
+    margin-bottom:1%;
+    text-align: center;
+}
+.bottom{
+    text-align: center;
+    background-color:rgb(19, 226, 71);
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+.ending{
+    /* margin-top: 20%; */
+    color: blanchedalmond;
+    text-align: center;
+
+}
+.button1{
+    background-color: powderblue;
+    color:slategrey;
+    text-align: center;
+    margin :auto;
+    border: slateblue;
+    border-style: groove;
+    border-radius: 20px;
+}
+.img{
+    display: block;
+    border-style: solid;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post-content{
+    text-align: center;
+    /* margin-left: auto; */
+    /* margin-right: 50%; */
+    background-color:ivory;
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    border: solid 3px black;
+    margin: 20px 10px 10px 10px;
+    /* margin-top: 20px; */
+    display: block;
+    border-radius: 20px;
+}
+.accountstyle
+{
+    text-align: center;
+    margin: auto;
+    border-radius: 30px;
+}
+.labels
+{
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 10px;
+}
+.updatediv
+{
+    text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    
+}
+.accountstyle
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: black;
+    /* text-align: center; */
+}
+.accountinput
+{
+    margin: 20px auto 20px auto;
+    width: 50%;
+    /* margin: 20px 130px 20px 130px; */
+    text-align: center;
+}
+.accountbox
+{
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    /* margin: 20px 130px 20px 130px; */
+}
+.length
+{
+    width: 40%;
+}
+.small
+{
+    height: 10px;
+    padding-bottom: 2px;
+}
+.description
+{
+    padding-left: 30%;
+}
+.btn
+{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+.btnn
+{
+    margin-bottom: 20px;
+}
+.bottomsu
+{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.userpost
+{
+    padding-left: 30%;
+    /* margin-right: auto; */
+}
